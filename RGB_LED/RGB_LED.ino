@@ -18,17 +18,17 @@ void setup()
 
 void loop()
 {
-  setColor(255, 0, 0);  // red
+  setColor(10, 0, 0);  // red
   delay(1000);
-  setColor(0, 255, 0);  // green
+  setColor(0, 10, 0);  // green
   delay(1000);
-  setColor(0, 0, 255);  // blue
+  setColor(0, 0, 5);  // blue
   delay(1000);
-  setColor(255, 255, 0);  // yellow
+  setColor(10, 10, 0);  // yellow
   delay(1000);  
-  setColor(80, 0, 80);  // purple
+  setColor(5, 0, 5);  // purple
   delay(1000);
-  setColor(0, 255, 255);  // aqua
+  setColor(0, 10, 10);  // aqua
   delay(1000);
 }
 
