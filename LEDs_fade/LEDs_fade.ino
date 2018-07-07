@@ -19,20 +19,20 @@ void setup()
 
 void loop() 
 {
-  setBrightness(255);
+  setBrightness(20);
   leds = 0;
   updateShiftRegister();
-  delay(500);
+  delay(300);
   for (int i = 0; i < 8; i++)
   {
     bitSet(leds, i);
     updateShiftRegister();
-    delay(500);
+    delay(300);
   }
-  for (byte b = 255; b > 0; b--)
+  for (byte b = 20; b > 0; b--)
   {
     setBrightness(b);
-    delay(50);
+    delay(100);
   }
 }
 
