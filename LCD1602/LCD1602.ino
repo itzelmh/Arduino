@@ -9,11 +9,11 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 void setup()                                                                                     
 {
 // set up the LCD's number of columns and rows:
-  lcd.begin(16,2);
+  lcd.begin(16,2); //size of display
 // Print a message to the LCD.
-  lcd.print("  Welcome to ");
-  lcd.setCursor(0,1);  //Display position
-  lcd.print("        Miuzei");
+  lcd.print("    Hello ");
+  lcd.setCursor(0,1);  //Display position, second line (column, row)
+  lcd.print("    world!");
 }
 void loop()
 {
@@ -22,6 +22,6 @@ void loop()
   delay(500);
   // Turn on the display:
   lcd.display();
-  delay(500);
+  delay(2000);
  }
 
